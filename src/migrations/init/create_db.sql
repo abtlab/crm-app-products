@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Versions
+(
+  Version   BIGINT    NOT NULL CONSTRAINT PK_Versions_Version PRIMARY KEY,
+  Timestamp TIMESTAMP NOT NULL
+);
